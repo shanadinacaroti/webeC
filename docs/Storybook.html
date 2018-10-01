@@ -27,6 +27,8 @@
             text-align: left;
 
         }
+        footer{display: grid;
+        grid-template-columns: auto 1040px}
     </style>
 </head>
 <body>
@@ -61,8 +63,6 @@
                 </tr>
                 </thead>
                 <tbody>
-
-                <!-- fill from /storybook.txt here -->
                     <tr>
                         <td>18.09.2018</td>
                         <td>12:15 - 15:00</td>
@@ -73,7 +73,6 @@
                         <td>12:15 - 15:00</td>
                         <td>CSS</td>
                     </tr>
-
                     <tr>
                         <td>02.10.2018</td>
                         <td>12:15 - 15:00</td>
@@ -99,7 +98,6 @@
                         <td>12:15 - 15:00</td>
                         <td>Persistence, DB-Access (GORM)</td>
                     </tr>
-
                     <tr>
                         <td>06.11.2018</td>
                         <td>12:15 - 15:00</td>
@@ -111,12 +109,11 @@
                         <td>Role-based Security</td>
                     </tr>
                     <tr>
-                        <td><strong>20.11.2018</strong></td>
+                        <td style="color: coral"><strong>20.11.2018</strong></td>
                         <td>12:15 - 15:00</td>
-                        <td>Übungsvorbereitung,<strong> <dfn title="Anwesenheitspflicht">** compulsory attendance **</dfn> </strong>
+                        <td>Übungsvorbereitung,<strong> <dfn title="Anwesenheitspflicht" style="color: coral">** compulsory attendance **</dfn> </strong>
                         </td>
                     </tr>
-
                     <tr>
                         <td>04.12.2018</td>
                         <td>12:15 - 15:00</td>
@@ -128,11 +125,11 @@
                         <td>Responsive / Mobile Web</td>
                     </tr>
                     <tr>
-                        <td><strong>18.12.2018</strong></td>
+                        <td style="color: coral"><strong>18.12.2018</strong></td>
                         <td>12:15 - 15:00</td>
-                        <td>Weihnachtsvorlesung, <strong> <dfn title="Übungsabgabe"> ** submission exercise **</dfn> </strong> </td>
+                        <td>Weihnachtsvorlesung, <strong> <dfn title="Übungsabgabe" style="color: coral"> ** submission exercise **</dfn> </strong> </td>
                     </tr>
-                
+
                     <tr>
                         <td>08.01.2018</td>
                         <td>12:15 - 15:00</td>
@@ -180,11 +177,18 @@
     </section>
 </main>
 <footer>
-    <address>Dierk König, 5.2B16,
-        <a href="mailto:dierk.koenig@fhnw.ch"> dierk.koenig@fhnw.ch </a> </address>
-    <address>Christian Ribeaud,
+    <div>
+        <address>
+            Dierk König; Room: 5.2B16,
+            <a href="mailto:dierk.koenig@fhnw.ch"> dierk.koenig@fhnw.ch </a>
+        </address>
+    </div>
+    <div>
+    <address>
+        Christian Ribeaud,
         <a href="mailto:christian.ribeaud@fhnw.ch"> christian.ribeaud@fhnw.ch </a>
     </address>
+    </div>
 </footer>
 </body>
 </html>
